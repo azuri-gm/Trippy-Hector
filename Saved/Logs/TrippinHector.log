@@ -1,0 +1,154 @@
+﻿[2015.10.02-00.52.35:079][  0]Log file open, 10/01/15 19:52:35
+[2015.10.02-00.52.35:079][  0]LogInit:Display: Running engine for game: TrippinHector
+[2015.10.02-00.52.35:079][  0]LogInit:Display: RandInit(1380057320) SRandInit(1380057320).
+[2015.10.02-00.52.35:079][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.02-00.52.35:079][  0]LogStats: Stats thread started at 0.189984
+[2015.10.02-00.52.35:079][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.02-00.52.35:079][  0]LogInit: API Version: 2672455
+[2015.10.02-00.52.35:079][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.10.02-00.52.35:079][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.02-00.52.35:079][  0]LogInit: Build Configuration: Development
+[2015.10.02-00.52.35:079][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.02-00.52.35:079][  0]LogInit: Command line: 
+[2015.10.02-00.52.35:079][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.02-00.52.35:079][  0]LogInit: Rocket: 1
+[2015.10.02-00.52.35:087][  0]LogInit: Using libcurl 7.41.0
+[2015.10.02-00.52.35:087][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.02-00.52.35:087][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.02-00.52.35:087][  0]LogInit:  - other features:
+[2015.10.02-00.52.35:088][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.02-00.52.35:088][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.02-00.52.35:088][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.02-00.52.35:088][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.02-00.52.35:088][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.02-00.52.35:088][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.02-00.52.35:088][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.02-00.52.35:088][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.02-00.52.35:088][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.02-00.52.35:088][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.02-00.52.35:095][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.02-00.52.35:101][  0]LogInit: Object subsystem initialized
+[2015.10.02-00.52.35:102][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.02-00.52.35:102][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.02-00.52.35:111][  0]LogInit: Computer: ASUSENA
+[2015.10.02-00.52.35:111][  0]LogInit: User: Nataly
+[2015.10.02-00.52.35:111][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.02-00.52.35:111][  0]LogInit: High frequency timer resolution =2.338335 MHz
+[2015.10.02-00.52.35:111][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.02-00.52.35:111][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.02-00.52.35:111][  0]LogMemory: Process Physical Memory: 54.86 MB used, 54.86 MB peak
+[2015.10.02-00.52.35:111][  0]LogMemory: Process Virtual Memory: 56.66 MB used, 56.66 MB peak
+[2015.10.02-00.52.35:111][  0]LogMemory: Physical Memory: 4541.90 MB used, 8109.48 MB total
+[2015.10.02-00.52.35:111][  0]LogMemory: Virtual Memory: 352.84 MB used, 134217728.00 MB total
+[2015.10.02-00.52.35:160][  0]LogTextLocalizationManager: No specific translations for ('es-MX') exist, so ('es') translations will be used.
+[2015.10.02-00.52.35:615][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770M (Feature Level 11_0)
+[2015.10.02-00.52.35:615][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 4054MB of shared system memory, 1 output[s]
+[2015.10.02-00.52.35:617][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.02-00.52.35:617][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4054MB of shared system memory, 0 output[s]
+[2015.10.02-00.52.35:617][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.02-00.52.35:621][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.02-00.52.35:621][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.02-00.52.35:636][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.02-00.52.35:651][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Nataly/Documents/Unreal Projects/Trippin Hector/Intermediate/Shaders/WorkingDirectory/4108/).
+[2015.10.02-00.52.35:651][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Nataly/Documents/Unreal Projects/Trippin Hector/Intermediate/Shaders/tmp/CA4EECBE43B8A58BC68AF3AC32233045/'.
+[2015.10.02-00.52.35:651][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.02-00.52.36:913][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.02-00.52.36:919][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.02-00.52.36:926][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.02-00.52.36:932][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.02-00.52.36:938][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.02-00.52.36:943][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.02-00.52.36:947][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.02-00.52.36:951][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.02-00.52.36:956][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.02-00.52.36:960][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.02-00.52.36:964][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.02-00.52.36:969][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.02-00.52.36:970][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.02-00.52.36:988][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.02-00.52.36:992][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.02-00.52.36:996][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.02-00.52.37:001][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.02-00.52.37:001][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.02-00.52.37:101][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.02-00.52.37:148][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Nataly/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.02-00.52.37:148][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nataly/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.02-00.52.37:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nataly/Documents/Unreal Projects/Trippin Hector/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.02-00.52.37:148][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.02-00.52.37:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nataly/Documents/Unreal Projects/Trippin Hector/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.02-00.52.37:148][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.02-00.52.37:278][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.02-00.52.37:290][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nataly/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.02-00.52.37:472][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.02-00.52.37:475][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.02-00.52.37:600][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.02-00.52.37:600][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.02-00.52.37:863][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.02-00.52.38:651][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.02-00.52.38:755][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.10.02-00.52.38:941][  0]SourceControl: Información El control de código fuente está desactivado
+[2015.10.02-00.52.38:943][  0]SourceControl: Información El control de código fuente está desactivado
+[2015.10.02-00.52.38:958][  0]SourceControl: Información El control de código fuente está desactivado
+[2015.10.02-00.52.38:974][  0]SourceControl: Información El control de código fuente está desactivado
+[2015.10.02-00.52.39:171][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.02-00.52.39:274][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.02-00.52.39:274][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.02-00.52.39:331][  0]LogEngine: Initializing Engine...
+[2015.10.02-00.52.39:339][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.02-00.52.39:340][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.02-00.52.39:463][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.02-00.52.39:469][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.02-00.52.39:479][  0]LogInit: FAudioDevice initialized.
+[2015.10.02-00.52.39:509][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Nataly/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.02-00.52.39:514][  0]LogInit: Texture streaming: Enabled
+[2015.10.02-00.52.39:520][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.02-00.52.39:520][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.10.02-00.52.39:521][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 04df499049219a7688f831ad8c33bab9|be6da15be3204defa60aaeb9a79d4362|3769f83d-fa0e-4309-8b91-9de283483013
+[2015.10.02-00.52.39:521][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.02-00.52.39:534][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.02-00.52.39:561][  0]LogInit: Transaction tracking system initialized
+[2015.10.02-00.52.39:593][  0]BlueprintLog: New page: Cargar el editor
+[2015.10.02-00.52.39:685][  0]LocalizationService: Información Localization service is disabled
+[2015.10.02-00.52.39:774][  0]LogConsoleResponse:Display: 
+[2015.10.02-00.52.39:887][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.02-00.52.39:956][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nataly/Documents/Unreal Projects/Trippin Hector/Content/' took 0.02s
+[2015.10.02-00.52.39:956][  0]SourceControl: Información El control de código fuente está desactivado
+[2015.10.02-00.52.39:956][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nataly/Documents/Unreal Projects/Trippin Hector/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.02-00.52.39:957][  0]LightingResults: New page: Diseñar la iluminación
+[2015.10.02-00.52.39:960][  0]MapCheck: New page: Revisión del mapa
+[2015.10.02-00.52.39:960][  0]LightingResults: New page: Diseñar la iluminación
+[2015.10.02-00.52.39:970][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DD6506AC0
+[2015.10.02-00.52.40:109][  0]LogLinker:Warning: Asset '../../../../../../Users/Nataly/Documents/Unreal Projects/Trippin Hector/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.02-00.52.40:112][  0]LogLinker:Warning: Asset '../../../../../../Users/Nataly/Documents/Unreal Projects/Trippin Hector/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.02-00.52.40:645][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.02-00.52.40:653][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.02-00.52.40:654][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.02-00.52.40:739][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 85.129ms to complete.
+[2015.10.02-00.52.40:739][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.783
+[2015.10.02-00.52.40:836][  0]LogCollectionManager: Loaded 0 collections in 0.002269 seconds
+[2015.10.02-00.52.40:879][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nataly/Documents/Unreal Projects/Trippin Hector/Saved/Collections/' took 0.01s
+[2015.10.02-00.52.40:879][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nataly/Documents/Unreal Projects/Trippin Hector/Content/Developers/Nataly/Collections/' took 0.01s
+[2015.10.02-00.52.40:879][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nataly/Documents/Unreal Projects/Trippin Hector/Content/Collections/' took 0.01s
+[2015.10.02-00.52.40:879][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1867 classes and 333 folders.
+[2015.10.02-00.52.40:884][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.02-00.52.40:894][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.02-00.52.40:954][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.02-00.52.40:959][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.02-00.52.40:982][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.02-00.52.40:987][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2015.10.02-00.52.41:009][  0]LogLoad: Full Startup: 6.59 seconds (BP compile: 0.13 seconds)
+[2015.10.02-00.52.41:026][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap  : Failed import for SkeletalMeshComponent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:SkeletalMesh_GEN_VARIABLE
+[2015.10.02-00.52.41:163][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.02-00.52.41:311][  0]LogRenderer: Reallocating scene render targets to support 1208x596 (Frame:2).
+[2015.10.02-00.52.41:504][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.02-00.52.41:751][  5]LogAssetRegistry: Asset discovery search completed in 3.0068 seconds
+[2015.10.02-00.52.41:751][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2015.10.02-00.53.09:001][585]Cmd: MAP LOAD FILE="../../../../../../Users/Nataly/Documents/Unreal Projects/Trippin Hector/Content/Room1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.02-00.53.09:025][585]LightingResults: New page: Diseñar la iluminación
+[2015.10.02-00.53.09:050][585]LoadErrors: New page: Cargando mapa: Room1.umap
+[2015.10.02-00.53.09:050][585]MapCheck: New page: Revisión del mapa
+[2015.10.02-00.53.09:050][585]LightingResults: New page: Diseñar la iluminación
+[2015.10.02-00.53.09:060][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004DC72A9D00
+[2015.10.02-00.53.17:022][585]LogAIModule: Creating AISystem for world Room1
+[2015.10.02-00.53.17:035][585]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.02-00.53.17:064][585]Cmd: MAP CHECKDEP NOCLEARLO
