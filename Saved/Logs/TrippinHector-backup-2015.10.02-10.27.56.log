@@ -1,0 +1,309 @@
+﻿[2015.10.02-15.14.21:600][  0]Log file open, 10/02/15 10:14:21
+[2015.10.02-15.14.21:600][  0]LogInit:Display: Running engine for game: TrippinHector
+[2015.10.02-15.14.21:600][  0]LogInit:Display: RandInit(-1319265650) SRandInit(-1319265649).
+[2015.10.02-15.14.21:600][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.02-15.14.21:600][  0]LogStats: Stats thread started at 0.083398
+[2015.10.02-15.14.21:600][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.02-15.14.21:600][  0]LogInit: API Version: 2672455
+[2015.10.02-15.14.21:600][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.10.02-15.14.21:600][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.02-15.14.21:600][  0]LogInit: Build Configuration: Development
+[2015.10.02-15.14.21:600][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.02-15.14.21:600][  0]LogInit: Command line:  
+[2015.10.02-15.14.21:600][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.02-15.14.21:600][  0]LogInit: Rocket: 1
+[2015.10.02-15.14.21:611][  0]LogInit: Using libcurl 7.41.0
+[2015.10.02-15.14.21:611][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.02-15.14.21:611][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.02-15.14.21:611][  0]LogInit:  - other features:
+[2015.10.02-15.14.21:611][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.02-15.14.21:611][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.02-15.14.21:611][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.02-15.14.21:611][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.02-15.14.21:611][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.02-15.14.21:611][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.02-15.14.21:611][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.02-15.14.21:611][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.02-15.14.21:611][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.02-15.14.21:611][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.02-15.14.21:622][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.02-15.14.21:632][  0]LogInit: Object subsystem initialized
+[2015.10.02-15.14.21:635][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.02-15.14.21:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.02-15.14.21:650][  0]LogInit: Computer: QUIIN
+[2015.10.02-15.14.21:650][  0]LogInit: User: Quiin
+[2015.10.02-15.14.21:650][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.02-15.14.21:650][  0]LogInit: High frequency timer resolution =2.435777 MHz
+[2015.10.02-15.14.21:650][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.02-15.14.21:650][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.02-15.14.21:650][  0]LogMemory: Process Physical Memory: 53.88 MB used, 53.88 MB peak
+[2015.10.02-15.14.21:650][  0]LogMemory: Process Virtual Memory: 55.32 MB used, 55.32 MB peak
+[2015.10.02-15.14.21:650][  0]LogMemory: Physical Memory: 4678.74 MB used, 8104.27 MB total
+[2015.10.02-15.14.21:650][  0]LogMemory: Virtual Memory: 364.37 MB used, 134217728.00 MB total
+[2015.10.02-15.14.21:694][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.02-15.14.22:715][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M  (Feature Level 11_0)
+[2015.10.02-15.14.22:715][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 4052MB of shared system memory, 1 output[s]
+[2015.10.02-15.14.22:721][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.02-15.14.22:721][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4052MB of shared system memory, 0 output[s]
+[2015.10.02-15.14.22:722][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.02-15.14.22:722][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4052MB of shared system memory, 0 output[s]
+[2015.10.02-15.14.22:722][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.02-15.14.22:727][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.02-15.14.22:727][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.02-15.14.22:742][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.02-15.14.22:757][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Intermediate/Shaders/WorkingDirectory/6104/).
+[2015.10.02-15.14.22:757][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Intermediate/Shaders/tmp/885B9A114D4EEC5E9EA212B81354A462/'.
+[2015.10.02-15.14.22:757][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.02-15.14.24:258][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.02-15.14.24:269][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.02-15.14.24:278][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.02-15.14.24:287][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.02-15.14.24:295][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.02-15.14.24:302][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.02-15.14.24:310][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.02-15.14.24:316][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.02-15.14.24:320][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.02-15.14.24:326][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.02-15.14.24:332][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.02-15.14.24:336][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.02-15.14.24:337][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.02-15.14.24:360][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.02-15.14.24:373][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.02-15.14.24:381][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.02-15.14.24:390][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.02-15.14.24:390][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.02-15.14.24:530][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.02-15.14.24:593][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/Quiin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.02-15.14.24:593][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Quiin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.02-15.14.24:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.02-15.14.24:593][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.02-15.14.24:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.02-15.14.24:593][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.02-15.14.24:782][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.02-15.14.24:794][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Quiin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.02-15.14.25:023][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.02-15.14.25:029][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.02-15.14.25:218][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.02-15.14.25:218][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.02-15.14.25:537][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.02-15.14.26:612][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.02-15.14.26:727][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.10.02-15.14.26:996][  0]SourceControl: Info Source control is disabled
+[2015.10.02-15.14.27:796][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.02-15.14.27:910][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.02-15.14.27:910][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.02-15.14.27:988][  0]LogEngine: Initializing Engine...
+[2015.10.02-15.14.27:990][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.02-15.14.27:991][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.02-15.14.28:196][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.02-15.14.28:203][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.02-15.14.28:218][  0]LogInit: FAudioDevice initialized.
+[2015.10.02-15.14.28:261][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Quiin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.02-15.14.28:272][  0]LogInit: Texture streaming: Enabled
+[2015.10.02-15.14.28:282][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.02-15.14.28:282][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.02-15.14.28:282][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8464a0154692be69fcc5bd947abc987f|bfef9cc5c9db489cb2f031a861819abc|da4b7740-65b6-4330-97cf-04fec3ee4bee
+[2015.10.02-15.14.28:282][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.02-15.14.28:334][  0]LogInit: Transaction tracking system initialized
+[2015.10.02-15.14.28:399][  0]BlueprintLog: New page: Editor Load
+[2015.10.02-15.14.28:554][  0]LocalizationService: Info Localization service is disabled
+[2015.10.02-15.14.28:677][  0]LogConsoleResponse:Display: 
+[2015.10.02-15.14.28:876][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.02-15.14.29:197][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/' took 0.02s
+[2015.10.02-15.14.51:500][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.02-15.14.51:514][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.02-15.14.51:663][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.02-15.14.51:683][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.02-15.14.51:685][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.02-15.14.51:685][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.10.02-15.14.51:685][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.02-15.14.51:864][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.104ms to complete.
+[2015.10.02-15.14.51:864][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.180
+[2015.10.02-15.14.51:870][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.02-15.14.51:930][  0]LogCollectionManager: Loaded 0 collections in 0.011353 seconds
+[2015.10.02-15.14.51:994][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Saved/Collections/' took 0.01s
+[2015.10.02-15.14.51:994][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/Developers/Quiin/Collections/' took 0.01s
+[2015.10.02-15.14.51:994][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/Collections/' took 0.01s
+[2015.10.02-15.14.51:994][  0]LogContentBrowser: Native class hierarchy populated in 0.0252 seconds. Added 1867 classes and 333 folders.
+[2015.10.02-15.14.52:009][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.10.02-15.14.52:033][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.10.02-15.14.52:131][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.10.02-15.14.52:254][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.10.02-15.14.52:403][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.02-15.14.52:415][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.02-15.14.52:440][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_73c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2380_0///####STATCAT_Advanced####
+[2015.10.02-15.14.52:440][  0]LogLoad: Full Startup: 31.51 seconds (BP compile: 0.00 seconds)
+[2015.10.02-15.14.52:551][  0]SourceControl: Info On branch master
+[2015.10.02-15.14.52:551][  0]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
+[2015.10.02-15.14.52:551][  0]SourceControl: Info   (use "git push" to publish your local commits)
+[2015.10.02-15.14.52:551][  0]SourceControl: Info Changes to be committed:
+[2015.10.02-15.14.52:551][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	deleted:    Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.10.02-15.14.52:551][  0]SourceControl: Info Changes not staged for commit:
+[2015.10.02-15.14.52:551][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.10.02-15.14.52:551][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/Room1_Auto1.umap
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	modified:   Saved/Logs/TrippinHector.log
+[2015.10.02-15.14.52:551][  0]SourceControl: Info Untracked files:
+[2015.10.02-15.14.52:551][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	Saved/Autosaves/Game/FirstPersonBP/
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-01-21-10-29.uasset
+[2015.10.02-15.14.52:551][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-01-21-22-09.uasset
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-01-21-34-22.uasset
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-01-21-48-03.uasset
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-01-21-55-13.uasset
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-01-22-00-20.uasset
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-02-09-26-27.uasset
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-02-09-45-18.uasset
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2015-10-02-10-08-58.uasset
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/Room1_2015-10-01-21-10-28.umap
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Backup/Room1_2015-10-01-21-48-03.umap
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Logs/TrippinHector-backup-2015.10.01-20.55.39.log
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Logs/TrippinHector-backup-2015.10.02-09.10.30.log
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Logs/TrippinHector-backup-2015.10.02-10.14.21.log
+[2015.10.02-15.14.52:552][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-E72AF94F48B79B193ABE8A9F3B0DBEC6/
+[2015.10.02-15.14.52:552][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.02-15.14.52:818][  0]LogRenderer: Reallocating scene render targets to support 696x708 (Frame:2).
+[2015.10.02-15.14.53:071][  5]LogAssetRegistry: Asset discovery search completed in 26.3550 seconds
+[2015.10.02-15.14.53:071][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.02-15.14.53:071][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2015.10.02-15.14.56:898][200]LogLinker:Warning: Asset '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.02-15.14.56:902][200]LogLinker:Warning: Asset '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.02-15.14.57:384][200]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.02-15.14.58:511][200]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 107 classes and 0 folders.
+[2015.10.02-15.15.40:646][579]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'FirstPersonCharacter', cached variable property's owner is '/Script/Engine.CameraComponent'
+[2015.10.02-15.15.43:626][753]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'FirstPersonCharacter', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C'
+[2015.10.02-15.19.07:869][938]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.02-15.19.08:008][938]BlueprintEditorCompileResults: Info [0287.08] Compile of FirstPersonCharacter successful! [in 139 ms]
+[2015.10.02-15.19.09:027][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.02-15.19.09:030][ 21]PIE: New page: PIE session: Untitled_0 (Oct 2, 2015, 5:19:09 AM)
+[2015.10.02-15.19.09:030][ 21]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2015.10.02-15.19.09:031][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000664s)
+[2015.10.02-15.19.09:031][ 21]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.02-15.19.09:032][ 21]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2015.10.02-15.19.09:032][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.NewWorld to /Temp/UEDPIE_0_Untitled_0.NewWorld (0.001793s)
+[2015.10.02-15.19.09:061][ 21]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.02-15.19.09:071][ 21]LogInit: FAudioDevice initialized.
+[2015.10.02-15.19.09:131][ 21]LogLinker:Warning: Asset '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.02-15.19.09:173][ 21]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.02-15.19.09:175][ 21]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.NewWorld up for play (max tick rate 0) at 2015.10.02-10.19.09
+[2015.10.02-15.19.09:175][ 21]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.02-15.19.09:176][ 21]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.02-15.19.09:176][ 21]LogWorld: Bringing up level for play took: 0.000889
+[2015.10.02-15.19.09:177][ 21]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.10.02-15.19.09:222][ 21]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_0 0.451
+[2015.10.02-15.19.09:243][ 22]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:5).
+[2015.10.02-15.19.16:119][412]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000590CD53CE0
+[2015.10.02-15.19.17:504][542]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.02-15.19.17:621][542]BlueprintEditorCompileResults: Info [0296.70] Compile of FirstPersonCharacter successful! [in 117 ms]
+[2015.10.02-15.19.18:716][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.02-15.19.18:716][634]PIE: New page: PIE session: Untitled_0 (Oct 2, 2015, 5:19:18 AM)
+[2015.10.02-15.19.18:716][634]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2015.10.02-15.19.18:716][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000455s)
+[2015.10.02-15.19.18:717][634]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.02-15.19.18:717][634]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2015.10.02-15.19.18:717][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.NewWorld to /Temp/UEDPIE_0_Untitled_0.NewWorld (0.001291s)
+[2015.10.02-15.19.18:747][634]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.02-15.19.18:756][634]LogInit: FAudioDevice initialized.
+[2015.10.02-15.19.18:789][634]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.02-15.19.18:790][634]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.NewWorld up for play (max tick rate 0) at 2015.10.02-10.19.18
+[2015.10.02-15.19.18:791][634]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.02-15.19.18:791][634]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.02-15.19.18:791][634]LogWorld: Bringing up level for play took: 0.000788
+[2015.10.02-15.19.18:791][634]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.10.02-15.19.18:841][634]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_0 0.07
+[2015.10.02-15.19.22:235][835]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005900B793A0
+[2015.10.02-15.19.26:352][208]LogAIModule: Creating AISystem for world Room1
+[2015.10.02-15.19.29:587][208]LogSavePackage: Save=129.491333ms
+[2015.10.02-15.19.29:587][208]LogSavePackage: Moving '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Saved/FirstPersonCharacter74DCB2694F9C596C4837D797972DA897.tmp' to '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.10.02-15.19.29:590][208]LogSavePackage: Total save time: 149.770688ms
+[2015.10.02-15.19.29:590][208]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.10.02-15.19.29:592][208]Cmd: MAP LOAD FILE="../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/Room1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.02-15.19.29:592][208]LightingResults: New page: Lighting Build
+[2015.10.02-15.19.29:598][208]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2015.10.02-15.19.29:619][208]LoadErrors: New page: Loading map: Room1.umap
+[2015.10.02-15.19.29:619][208]MapCheck: New page: Map Check
+[2015.10.02-15.19.29:619][208]LightingResults: New page: Lighting Build
+[2015.10.02-15.19.29:620][208]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.02-15.19.29:643][208]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005965914400
+[2015.10.02-15.19.29:707][208]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.02-15.19.29:746][208]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.02-15.19.29:819][208]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.075ms to complete.
+[2015.10.02-15.19.29:826][208]LogFileHelpers: Loading map 'Room1' took 0.236
+[2015.10.02-15.20.16:588][682]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.02-15.20.46:442][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room1" FILE="../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/Room1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.02-15.20.46:587][507]LogSavePackage: Save=102.428505ms
+[2015.10.02-15.20.46:587][507]LogSavePackage: Moving '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Saved/Room1DDFA7FC841D5E37AF995BC9424AA7F1F.tmp' to '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/Room1.umap'
+[2015.10.02-15.20.46:590][507]LogSavePackage: Total save time: 120.192859ms
+[2015.10.02-15.20.46:590][507]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/Room1.umap
+[2015.10.02-15.20.46:627][507]LogFileHelpers: Saving map 'Room1' took 0.260
+[2015.10.02-15.20.50:166][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.02-15.20.50:166][852]PIE: New page: PIE session: Room1 (Oct 2, 2015, 5:20:50 AM)
+[2015.10.02-15.20.50:166][852]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Room1
+[2015.10.02-15.20.50:180][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014480s)
+[2015.10.02-15.20.50:181][852]LogAIModule: Creating AISystem for world Room1
+[2015.10.02-15.20.50:181][852]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2015.10.02-15.20.50:181][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Room1.Room1 to /Game/UEDPIE_0_Room1.Room1 (0.015627s)
+[2015.10.02-15.20.50:214][852]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.02-15.20.50:223][852]LogInit: FAudioDevice initialized.
+[2015.10.02-15.20.50:263][852]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.02-15.20.50:274][852]LogWorld: Bringing World /Game/UEDPIE_0_Room1.Room1 up for play (max tick rate 0) at 2015.10.02-10.20.50
+[2015.10.02-15.20.50:274][852]LogActor:Warning: GameSession /Game/UEDPIE_0_Room1.Room1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.02-15.20.50:275][852]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Room1.Room1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.02-15.20.50:275][852]LogWorld: Bringing up level for play took: 0.010565
+[2015.10.02-15.20.50:313][852]PIE: Info Play in editor start time for /Game/UEDPIE_0_Room1 -0.459
+[2015.10.02-15.21.17:119][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005900B78400
+[2015.10.02-15.21.27:713][491]LogSavePackage: Save=115.243721ms
+[2015.10.02-15.21.27:713][491]LogSavePackage: Moving '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Saved/FirstPersonCharacter1CDC2222406DCE86477F708E1B3CB36C.tmp' to '../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.10.02-15.21.27:716][491]LogSavePackage: Total save time: 128.480561ms
+[2015.10.02-15.21.27:716][491]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Quiin/Documents/Unreal Projects/Trippy-Hector/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.10.02-15.22.15:521][624]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.02-15.22.15:643][624]BlueprintEditorCompileResults: Info [0474.72] Compile of FirstPersonCharacter successful! [in 120 ms]
+[2015.10.02-15.25.53:402][547]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'FirstPersonCharacter', cached variable property's owner is '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C'
+[2015.10.02-15.26.41:786][767]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.02-15.26.41:915][767]BlueprintEditorCompileResults: Info [0740.99] Compile of FirstPersonCharacter successful! [in 129 ms]
+[2015.10.02-15.27.45:484][991]LogEditorTransaction: Undo Move Node
+[2015.10.02-15.27.45:954][  6]LogEditorTransaction: Undo Move Node
+[2015.10.02-15.27.46:241][ 15]LogEditorTransaction: Undo Rename Node
+[2015.10.02-15.27.46:735][ 37]LogEditorTransaction: Undo Add Node
+[2015.10.02-15.27.46:939][ 43]LogEditorTransaction: Undo Rename Node
+[2015.10.02-15.27.47:107][ 48]LogEditorTransaction: Undo Rename Node
+[2015.10.02-15.27.47:258][ 52]LogEditorTransaction: Undo Add Node
+[2015.10.02-15.27.47:426][ 57]LogEditorTransaction: Undo Move Node
+[2015.10.02-15.27.47:640][ 65]LogEditorTransaction: Undo Move Node
+[2015.10.02-15.27.47:927][ 77]LogEditorTransaction: Undo Move Node
+[2015.10.02-15.27.48:177][ 87]LogEditorTransaction: Undo Create Pin Link
+[2015.10.02-15.27.48:433][ 96]LogEditorTransaction: Undo Create Pin Link
+[2015.10.02-15.27.48:864][117]LogEditorTransaction: Undo Delete current selection
+[2015.10.02-15.27.49:324][138]LogEditorTransaction: Undo Create Pin Link
+[2015.10.02-15.27.49:642][157]LogEditorTransaction: Undo Create Pin Link
+[2015.10.02-15.27.51:026][240]LogEditorTransaction: Undo Change Paramater Type
+[2015.10.02-15.27.51:038][240]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.10.02-15.27.51:266][240]LogCrashTracker: 
+
+
+[2015.10.02-15.27.51:266][240]LogCrashTracker: 
+
+
+[2015.10.02-15.27.51:266][240]LogWindows: === Critical error: ===
+Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Core\Public\Containers\Array.h] [Line: 678] 
+Array index out of bounds: 1107820544 from an array of size 3
+
+
+
+
+[2015.10.02-15.27.51:434][240]LogExit: Executing StaticShutdownAfterError
+[2015.10.02-15.27.51:443][240]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.02-15.27.51:443][240]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.02-15.27.51:444][240]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.02-15.27.51:444][240]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.02-15.27.51:444][240]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.10.02-15.27.51:444][240]Log file closed, 10/02/15 10:27:51
